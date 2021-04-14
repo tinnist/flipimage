@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Fe_iEtZB3cmFV4j?J%3^">picture</variable><variable id="Y(,0Yvq1T9@fUKP6]j6v">mySprite</variable><variable type="KIND_SpriteKind" id="Ux!2tbSTWDSpJbiu/v]k">Player</variable><variable type="KIND_SpriteKind" id="I/=,MS{.]g.gEh7@ogt^">Projectile</variable><variable type="KIND_SpriteKind" id="J3vHnn1=V6#@K%9(R^vk">Food</variable><variable type="KIND_SpriteKind" id="di,D:mtKl(n~6+{_@s`4">Enemy</variable></variables><block type="pxt-on-start" id="r_kslCGbueTCFC4)}dFP" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="R)$a}P8Jrkt}ALikaI)s"><field name="VAR" id="Y(,0Yvq1T9@fUKP6]j6v">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="kBhTwW8Z~ILU7bOYnap{"><value name="img"><shadow type="screen_image_picker" id="PEO+XwwOW8]kkgOdP}Jx"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 3 3 . . . . . . . . 
+. . . . 3 3 . 3 . . . . . . . . 
+. . . . 3 . . . 3 3 . . . . . . 
+. . . . 3 . . . . 3 . . . . . . 
+. . . . 3 . . . . 3 . . . . . . 
+. . . . 3 . . . . 3 . . . . . . 
+. . . . 3 . . . . 3 . . . . . . 
+. . . . 3 . . . . 3 . . . . . . 
+. . . . 3 3 3 3 3 3 . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"PEO+XwwOW8]kkgOdP}Jx"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="YwXzG?|boLC+o0Xni?P?"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="function_definition" id="Tgt]sM|nILJD(u*]~2Z3" x="510" y="330"><mutation name="flipHorizontal" functionid="+4B!O~0+B^*uvqc^%)%D"/><field name="function_name">flipHorizontal</field><statement name="STACK"><block type="Image_flipX" id="PMVp-3~rw5i.PSu1)jCp"><value name="picture"><block type="spriteimage" id="n7!BN]eQP1_H;eRCREow"><value name="sprite"><block type="variables_get" id="F$.bV2|-4//3q2f~LHU%"><field name="VAR" id="Y(,0Yvq1T9@fUKP6]j6v">mySprite</field></block></value></block></value><next><block type="device_pause" id="LO!qpZP!BN{Ic*A-$Sv@"><value name="pause"><shadow type="timePicker" id="LKjj,fiShY2`)%X3AD7X"><field name="ms">200</field></shadow></value></block></next></block></statement></block></xml>
